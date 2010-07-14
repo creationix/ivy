@@ -20,6 +20,10 @@ Try `require('connect')` to make sure the bundled libraries are available.
 
 If you add ivy/bin to your executable path then it's "installed".  That's all it takes!
 
+## Module management
+
+Installing new modules, updating existing modules, and changing node versions is all done via the git submodules in `/modules/*` and `/ivy-bin`.  Currently there are no utilities to automate this, but there are plans to integrate [NPM][] somehow to play nice with the Ivy environment.
+
 ## Platforms
 
 Currently I bundle two platforms of node.
@@ -28,3 +32,5 @@ Currently I bundle two platforms of node.
  - **node-linux** - This is built on latest Ubuntu in 32-bit mode.
 
 I may add more platforms as time goes, but these are the two I use for development and production.
+
+[NPM]: http://github.com/isaacs/npm
