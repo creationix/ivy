@@ -16,3 +16,6 @@
 [submodule "ivy-bin"]
 	path = ivy-bin
 	url = http://github.com/creationix/ivy-bin.git
+[submodule "module/nStore"]
+	path = module/nStore
+	url = http://github.com/creationix/nstore.git
