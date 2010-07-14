@@ -7,11 +7,11 @@ rm lib/node/* bin/*
 
 echo "Installing libraries into local environment"
 cd lib/node
-ln -s ../../Modules/*/lib/* ./
+ln -s ../../modules/*/lib/* ./
 
 echo "Installing executables into local environment"
 cd $BASE/bin
-ln -s ../Modules/*/bin/* ./
+ln -s ../modules/*/bin/* ./
 
 platform=unknown
 unamestr=$(uname)
