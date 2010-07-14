@@ -8,15 +8,15 @@ It's super easy to install with a single line.  If you have `wget` then do:
 
     wget -O- http://github.com/creationix/ivy/raw/master/utils/setup.sh | sh
 
-For curl do:
+For `curl` do:
 
     curl -# http://github.com/creationix/ivy/raw/master/utils/setup.sh | sh
 
-And then after either case, you can start up node right away:
+And then after either case, you can start up `ivy` right away:
 
     ./ivy/bin/ivy
 
-Try to `require('connect')` to make sure the bundled libraries are available.
+Try `require('connect')` to make sure the bundled libraries are available.
 
 If you add ivy/bin to your executable path then it's "installed".  That's all it takes!
 
