@@ -1,11 +1,28 @@
 #!/bin/bash
 
 BASE=`pwd`
-cd lib/node
+
 echo "Removing old links"
-rm *
-echo "Making new links to libraries in Modules"
+rm lib/node/* bin/*
+
+echo "Installing libraries into local environment"
+cd lib/node
 ln -s ../../Modules/*/lib/* ./
-echo "Current libraries installed:"
-ls
+
+echo "Installing executables into local environment"
+cd $BASE/bin
+ln -s ../Modules/*/bin/* ./
+
+platform=unknown
+unamestr=$(uname)
+if [[ "$unamestr" == 'Linux' ]]; then
+  platform=linux
+elif [[ "$unamestr" == 'Darwin' ]]; then
+  platform=osx
+fi
+
+echo "Installing node exectuable for $platform"
+ln -s ../ivy-bin/node-$platform node
+
 cd $BASE
+echo "Done"
