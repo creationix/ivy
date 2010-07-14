@@ -1,17 +1,17 @@
-[submodule "Modules/Connect"]
-	path = Modules/Connect
+[submodule "modules/Connect"]
+	path = modules/Connect
 	url = http://github.com/extjs/Connect.git
-[submodule "Modules/nStore"]
-	path = Modules/nStore
+[submodule "modules/nStore"]
+	path = modules/nStore
 	url = http://github.com/creationix/nstore.git
-[submodule "Modules/grain"]
-	path = Modules/grain
+[submodule "modules/grain"]
+	path = modules/grain
 	url = http://github.com/creationix/grain.git
-[submodule "Modules/nstore-session"]
-	path = Modules/nstore-session
+[submodule "modules/nstore-session"]
+	path = modules/nstore-session
 	url = http://github.com/creationix/nstore-session.git
-[submodule "Modules/step"]
-	path = Modules/step
+[submodule "modules/step"]
+	path = modules/step
 	url = http://github.com/creationix/step.git
 [submodule "ivy-bin"]
 	path = ivy-bin
