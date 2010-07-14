@@ -13,3 +13,6 @@
 [submodule "Modules/step"]
 	path = Modules/step
 	url = http://github.com/creationix/step.git
+[submodule "ivy-bin"]
+	path = ivy-bin
+	url = http://github.com/creationix/ivy-bin.git
