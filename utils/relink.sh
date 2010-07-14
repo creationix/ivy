@@ -22,7 +22,7 @@ elif [[ "$unamestr" == 'Darwin' ]]; then
 fi
 
 echo "Installing node exectuable for $platform"
-ln -s ../ivy-bin/node-$platform node
+ln -s ../ivy-bin/node-$platform ivy
 
 cd $BASE
 echo "Done"
