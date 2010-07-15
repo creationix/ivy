@@ -1,9 +1,3 @@
-[submodule "modules/Connect"]
-	path = modules/Connect
-	url = http://github.com/extjs/Connect.git
-[submodule "modules/nStore"]
-	path = modules/nStore
-	url = http://github.com/creationix/nstore.git
 [submodule "modules/grain"]
 	path = modules/grain
 	url = http://github.com/creationix/grain.git
