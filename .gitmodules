@@ -19,3 +19,6 @@
 [submodule "module/nStore"]
 	path = module/nStore
 	url = http://github.com/creationix/nstore.git
+[submodule "modules/connect"]
+	path = modules/connect
+	url = http://github.com/senchalabs/connect.git
