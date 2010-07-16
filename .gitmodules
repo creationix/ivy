@@ -16,3 +16,6 @@
 [submodule "modules/connect"]
 	path = modules/connect
 	url = http://github.com/senchalabs/connect.git
+[submodule "modules/spark"]
+	path = modules/spark
+	url = http://github.com/senchalabs/spark.git
