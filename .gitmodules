@@ -10,9 +10,6 @@
 [submodule "ivy-bin"]
 	path = ivy-bin
 	url = http://github.com/creationix/ivy-bin.git
-[submodule "module/nStore"]
-	path = module/nStore
-	url = http://github.com/creationix/nstore.git
 [submodule "modules/connect"]
 	path = modules/connect
 	url = http://github.com/senchalabs/connect.git
@@ -31,3 +28,6 @@
 [submodule "modules/haml-js"]
 	path = modules/haml-js
 	url = http://github.com/creationix/haml-js.git
+[submodule "modules/nstore"]
+	path = modules/nstore
+	url = http://github.com/creationix/nstore.git
