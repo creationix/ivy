@@ -19,3 +19,15 @@
 [submodule "modules/spark"]
 	path = modules/spark
 	url = http://github.com/senchalabs/spark.git
+[submodule "modules/wheat"]
+	path = modules/wheat
+	url = http://github.com/creationix/wheat.git
+[submodule "modules/proto"]
+	path = modules/proto
+	url = http://github.com/creationix/proto.git
+[submodule "modules/node-git"]
+	path = modules/node-git
+	url = http://github.com/creationix/node-git.git
+[submodule "modules/haml-js"]
+	path = modules/haml-js
+	url = http://github.com/creationix/haml-js.git
