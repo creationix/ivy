@@ -31,3 +31,6 @@
 [submodule "modules/nstore"]
 	path = modules/nstore
 	url = http://github.com/creationix/nstore.git
+[submodule "modules/express"]
+	path = modules/express
+	url = http://github.com/visionmedia/express.git
