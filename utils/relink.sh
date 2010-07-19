@@ -2,16 +2,15 @@
 
 BASE=`pwd`
 
-echo "Removing old links"
-rm lib/node/* bin/*
-
 echo "Installing libraries into local environment"
-cd lib/node
-ln -s ../../modules/*/lib/* ./
+cd $BASE/lib/node
+rm *
+ln -sf ../../modules/*/lib/* ./
 
 echo "Installing executables into local environment"
 cd $BASE/bin
-ln -s ../modules/*/bin/* ./
+rm *
+ln -sf ../modules/*/bin/* ./
 
 platform=unknown
 unamestr=$(uname)
