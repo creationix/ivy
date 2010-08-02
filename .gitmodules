@@ -34,3 +34,6 @@
 [submodule "modules/express"]
 	path = modules/express
 	url = http://github.com/visionmedia/express.git
+[submodule "modules/less.js"]
+	path = modules/less.js
+	url = http://github.com/cloudhead/less.js.git
