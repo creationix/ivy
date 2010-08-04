@@ -37,3 +37,6 @@
 [submodule "modules/less.js"]
 	path = modules/less.js
 	url = http://github.com/cloudhead/less.js.git
+[submodule "modules/world-db"]
+	path = modules/world-db
+	url = http://github.com/creationix/world-db.git
