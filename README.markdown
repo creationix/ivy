@@ -14,11 +14,11 @@ For `curl` do:
 
 And then after either case, you can start up `ivy` right away:
 
-    ./ivy/bin/ivy
+    ./ivy/bin/node
 
 Try `require('connect')` to make sure the bundled libraries are available.
 
-If you add `/ivy/bin` to your executable path then it's "installed".  That's all it takes!
+If you add `/ivy/bin` to your executable path then it's "installed". That's all it takes!
 
 ## Module management
 
