@@ -43,3 +43,6 @@
 [submodule "modules/postgres-js"]
 	path = modules/postgres-js
 	url = http://github.com/creationix.com/postgres-js.git
+[submodule "modules/class"]
+	path = modules/class
+	url = http://github.com/creationix/class.git
