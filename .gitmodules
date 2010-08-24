@@ -46,3 +46,6 @@
 [submodule "modules/class"]
 	path = modules/class
 	url = http://github.com/creationix/class.git
+[submodule "modules/pattern"]
+	path = modules/pattern
+	url = http://github.com/creationix/pattern.git
