@@ -49,3 +49,6 @@
 [submodule "modules/pattern"]
 	path = modules/pattern
 	url = http://github.com/creationix/pattern.git
+[submodule "modules/couch-client"]
+	path = modules/couch-client
+	url = http://github.com/creationix/couch-client.git
